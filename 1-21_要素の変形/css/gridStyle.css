@@ -1,0 +1,13 @@
+.parent {
+	position: relative;
+	background: black;
+	color: white;
+	width: 300px;
+	height: 300px;
+  }
+  .child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
