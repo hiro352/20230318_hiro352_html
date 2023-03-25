@@ -1,39 +1,39 @@
-inner__left {
+.inner__left {
     display: block;
 }
-header__rigth {
+.header__rigth {
     display: block;
 }
-firstview {
+.firstview {
     display: block;
 }
-firstview__title {
+.firstview__title {
     display: block;
 }
-firstview__title--top {
+.firstview__title--top {
     display: block;
 }
-firstview__title--bottom {
+.firstview__title--bottom {
     display: block;
 }
-archive {
+.archive {
     display: block;
 }
-archive__item {
+.archive__item {
     display: block;
 }
-counseling {
+.counseling {
     display: block;
 }
-counseling__title {
+.counseling__title {
     display: block;
 }
-counseling__txt {
+.counseling__txt {
     display: block;
 }
-counseling__btn {
+.counseling__btn {
     display: block;
 }
-counseling__txt--sub {
+.counseling__txt--sub {
     display: block;
 }
