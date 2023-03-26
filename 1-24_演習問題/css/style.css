@@ -1,39 +1,69 @@
-.inner__left {
-    display: block;
+html{
+    width:100%;
+    height:100%;
 }
-.header__rigth {
-    display: block;
+body{
+    width:100%;
+    height:100%;
 }
-.firstview {
-    display: block;
+header{
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
 }
-.firstview__title {
-    display: block;
+main{
+    position:relative;
+    height:85%;
 }
-.firstview__title--top {
-    display: block;
+a{
+    text-decoration: none;
+    font-size: 2vw;
 }
-.firstview__title--bottom {
-    display: block;
+.header__left {
+    width: 20%;
+    font-size: 3vw;
+    color:#0000AA;
+    font-weight: bold;
+    margin:10px auto 10px 0;
 }
-.archive {
-    display: block;
+.header__right {
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0 10px auto;
 }
-.archive__item {
-    display: block;
+/* .main__message{
+    position:absolute;
+    top:50%;
+    height:auto;
+    font-size: 4vw;
+} */
+.main__blueRect{
+    position:absolute;
+    background-color: #0000AA;
+    top:55%;
+    height:40%;
+    width:80%;
+    font-size: 4vw;
+    z-index:1;
 }
-.counseling {
-    display: block;
+.main__blueRect::after{
+    position:absolute;
+    content:"毎日を笑顔に";
+    top:-4vw;
+    left:0%;
 }
-.counseling__title {
-    display: block;
-}
-.counseling__txt {
-    display: block;
-}
-.counseling__btn {
-    display: block;
-}
-.counseling__txt--sub {
-    display: block;
+.main__imgRect{
+    position: absolute;
+    width:60%;
+    height:80%;
+    background-image: url("../img/firstview.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% auto;
+    top:0px;
+    right:0px;
+    z-index:5;
+
 }
